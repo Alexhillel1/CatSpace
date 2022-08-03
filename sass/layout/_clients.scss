@@ -1,0 +1,25 @@
+.clients {
+  padding-top: 100px;
+  padding-bottom: 45px;
+}
+
+.clients__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 95px;
+}
+
+.clietns__link {
+  display: inline-block;
+  color: #d8d8d8;
+  transition: color 250ms linear, transform 250ms linear;
+
+  .clients__item &:hover {
+    color: #f78434;
+    transform: scale(1.2);
+  }
+}
+.clients__svg {
+  fill: currentColor;
+}

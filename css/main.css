@@ -1,0 +1,245 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 17px 37px;
+  background: #f78434;
+  border-radius: 29px;
+  border: none;
+  cursor: pointer;
+}
+
+.logo__link {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  /* identical to box height */
+  color: #323232;
+  transition: transform 250ms linear;
+}
+.logo__link:hover {
+  transform: scale(1.2);
+}
+
+.logo__img {
+  margin-right: 10px;
+}
+
+.page-header {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  column-gap: 42px;
+}
+
+.menu__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #323232;
+  transition: color 250ms linear;
+}
+.menu__link:hover {
+  color: #f78434;
+}
+
+.menu__link--active {
+  font-weight: 700;
+  color: #f78434;
+}
+
+.header-content__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content__text {
+  width: 467px;
+}
+
+.header-content__title {
+  position: relative;
+  z-index: 9;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  color: #323232;
+  margin-right: -160px;
+  margin-bottom: 25px;
+}
+
+.header-content__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.69;
+  /* or 169% */
+  letter-spacing: 1.15px;
+  color: #323232;
+  margin-bottom: 42px;
+}
+
+.header-form {
+  background: #ffffff;
+  box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
+  border-radius: 29px;
+  transition: box-shadow 250ms linear;
+  height: 58px;
+}
+.header-form--active {
+  box-shadow: 0px 17px 42px rgba(247, 132, 52, 0.27);
+}
+
+.header-form__label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 72px;
+  height: 100%;
+}
+.header-form__label::before {
+  position: absolute;
+  top: 21px;
+  left: 28px;
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../img/mail.svg);
+  background-repeat: no-repeat;
+}
+
+.header-form__input {
+  border: none;
+  flex-grow: 1;
+}
+.header-form__input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height */
+  color: #919191;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header-form__input:focus {
+  outline: transparent;
+}
+
+.header-form__button {
+  color: #fff;
+  transition: background-color 250ms linear;
+}
+.header-form__button:hover {
+  background-color: #ff6900;
+}
+
+.header-content__image {
+  border-radius: 40px 40px 40px 0px;
+}
+
+.clients {
+  padding-top: 100px;
+  padding-bottom: 45px;
+}
+
+.clients__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 95px;
+}
+
+.clietns__link {
+  display: inline-block;
+  color: #d8d8d8;
+  transition: color 250ms linear, transform 250ms linear;
+}
+.clients__item .clietns__link:hover {
+  color: #f78434;
+  transform: scale(1.2);
+}
+
+.clients__svg {
+  fill: currentColor;
+}
+
+.objects {
+  padding-top: 45px;
+  padding-bottom: 80px;
+}
+
+.objects__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=main.css.map */
