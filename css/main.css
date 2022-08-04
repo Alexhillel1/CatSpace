@@ -54,6 +54,7 @@ body {
 }
 
 .button {
+  display: inline-block;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
@@ -62,6 +63,14 @@ body {
   border-radius: 29px;
   border: none;
   cursor: pointer;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.48;
+  /* or 148% */
+  letter-spacing: 0.8px;
 }
 
 .logo__link {
@@ -242,4 +251,102 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.object__text {
+  max-width: 543px;
+}
+
+.object__title {
+  max-width: 374px;
+  color: #323232;
+  margin-bottom: 20px;
+}
+
+.object__descr--top {
+  margin-bottom: 20px;
+}
+
+.object__descr--bottom {
+  margin-bottom: 20px;
+}
+
+.object__descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.69;
+  /* or 169% */
+  letter-spacing: 1.15px;
+  color: #323232;
+  width: 374px;
+}
+
+.object__button {
+  color: #ffffff;
+  transition: background-color 250ms linear, transform 250ms linear;
+}
+.object__button:hover {
+  background-color: #ff6900;
+  transform: scale(1.2);
+}
+
+.object__img {
+  display: flex;
+  align-items: center;
+  column-gap: 33px;
+}
+
+.img__card {
+  position: relative;
+}
+
+.img-card__right {
+  margin-right: 181px;
+}
+
+.img-card__image--left {
+  border-radius: 20px;
+}
+
+.img-card__image--right {
+  border-radius: 20px 20px 0px 20px;
+  margin-right: 181px;
+}
+
+.img__card-info {
+  position: absolute;
+  right: -46px;
+  bottom: 87px;
+}
+
+.card-info {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding: 32px 29px;
+  background-color: #fff;
+  box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+}
+
+.card-info__svg {
+  margin-right: 20px;
+}
+
+.card-info__text--title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height */
+  letter-spacing: 0.8px;
+  color: #323232;
+}
+
+.card-info__text--descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.69;
+  /* or 169% */
+  letter-spacing: 1.15px;
+  color: #323232;
 }/*# sourceMappingURL=main.css.map */
